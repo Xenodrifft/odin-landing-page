@@ -2,13 +2,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: "roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
-    padding: 0px 148px;
+    padding: 0px 196px;
     justify-content: space-between;
     align-items: center;
     color: #F9FAF8;
@@ -16,7 +16,7 @@ body {
 }
 
 .header h3 {
-    margin: 16px 0px;
+    margin: 16px 16px 16px 0px;
 }
 
 ul {
@@ -31,4 +31,58 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+
+a:hover {
+    color: white;
+}
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    padding: 48px 196px 64px 196px;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.title-info {
+    flex: 0 1 auto;
+    width: 800px;
+    margin-right: 32px;
+}
+
+.title-info h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.title-info p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title-info button {
+    background-color: #3382F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 32px;
+    border: none;
+    border-radius: 8px;
+}
+
+.title-info button:hover {
+    background-color: #2b6bcc;
+}
+
+.main-image img {
+    height: auto;
+    width: 100%;
+    max-width: 700px;
+    min-width: 400px;
+    background-color: rgb(118, 120, 129);
+    border-radius: 8px;
 }
