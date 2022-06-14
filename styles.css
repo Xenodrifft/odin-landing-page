@@ -5,6 +5,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header section styling */
 .header {
     display: flex;
     background-color: #1F2937;
@@ -35,8 +36,11 @@ a {
 
 a:hover {
     color: white;
+    text-decoration: underline;
 }
 
+
+/* Top section styling */
 .top {
     display: flex;
     background-color: #1F2937;
@@ -49,7 +53,7 @@ a:hover {
 .title-info {
     flex: 0 1 auto;
     width: 800px;
-    margin-right: 32px;
+    margin-right: 48px;
 }
 
 .title-info h1{
@@ -85,4 +89,36 @@ a:hover {
     min-width: 400px;
     background-color: rgb(118, 120, 129);
     border-radius: 8px;
+}
+
+
+/* Middle-1 section styling */
+.middle-1 {
+    flex-direction: column;
+    padding: 32px 292px 96px 292px;
+}
+
+.middle-1 h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 0px 0px 32px 0px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.container img {
+    border: 3px solid #3382F6;
+    border-radius: 8px;
+    height: 300px;
+    width: 300px;
+}
+
+.container p {
+    width: 300px;
 }
