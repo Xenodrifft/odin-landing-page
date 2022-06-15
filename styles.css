@@ -35,8 +35,8 @@ a {
 }
 
 a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #3382F6;
+    transition: all 0.3s ease 0s;
 }
 
 
@@ -80,6 +80,7 @@ a:hover {
 
 .title-info button:hover {
     background-color: #2b6bcc;
+    transition: all 0.3s ease 0s;
 }
 
 .main-image img {
@@ -89,6 +90,7 @@ a:hover {
     min-width: 400px;
     background-color: rgb(118, 120, 129);
     border-radius: 8px;
+    box-shadow: 12px 12px 32px rgba(0, 0, 0, 0.5)
 }
 
 
@@ -113,8 +115,8 @@ a:hover {
 }
 
 .container img {
-    border: 3px solid #3382F6;
     border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
     height: 300px;
     width: 300px;
 }
