@@ -132,6 +132,7 @@ a:hover {
     width: 300px;
 }
 
+
 /* Middle-2 section styling */
 .middle-2 {
     background-color: #E5E7EB;
@@ -151,6 +152,7 @@ a:hover {
     text-align: end;
     margin-right: 48px;
 }
+
 
 /* Bottom section styling */
 .bottom {
@@ -194,4 +196,13 @@ a:hover {
     color: #3382F6;
     transition: all 0.3s ease 0s;
     cursor: pointer;
+}
+
+
+/* Footer section styling */
+.footer {
+    background-color: #1F2937;
+    padding: 12px;
+    color: white;
+    text-align: center;
 }
