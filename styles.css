@@ -20,6 +20,12 @@ body {
     margin: 16px 16px 16px 0px;
 }
 
+.header h3:hover {
+    cursor: pointer;
+    color: rgb(123, 255, 47);
+    transition: all 1s ease 0s;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -81,6 +87,7 @@ a:hover {
 .title-info button:hover {
     background-color: #2b6bcc;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 .main-image img {
@@ -130,7 +137,7 @@ a:hover {
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
-    padding: 146px 292px;
+    padding: 120px 292px;
 }
 
 .quote h4,
@@ -143,4 +150,48 @@ a:hover {
 .quote h4 {
     text-align: end;
     margin-right: 48px;
+}
+
+/* Bottom section styling */
+.bottom {
+    padding: 84px 196px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3382F6;
+    color: white;
+    border-radius: 8px;
+    padding: 48px 96px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.wrapper-text h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px;
+}
+
+.wrapper-text p {
+    font-size: 18px;
+}
+
+.button-2 button {
+    background-color: #3382F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+.button-2 button:hover {
+    background-color: white;
+    color: #3382F6;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
